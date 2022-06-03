@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: auto;
+}
+
+header{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 600px;
+    background-position: center right;
+    background-size: cover;
+}
+
+.hero-content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 10px #333;
+    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+.card{
+    display: inline-block;
+    width: 32%;
+    margin-left: 1%;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.content-section h2{
+    background-color: #ccc;
+    padding: 10px;
+    margin: 0;
+    border-bottom-style: solid ;
+    border-color: grey;
+}
+
+.footer-section{
+    text-align: center;
+    background-color: rgb(95, 92, 92);
+    height: 50px ;
+    line-height: 50px;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgb(27, 27, 27);
+}
+
+.hero li{
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.hero a{
+    background: rgb(27, 27, 27, 0.3);
+    color: white;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.hero a:hover{
+    background: rgb(27, 27, 27, 0.6);
+}
+
+.hero ul{
+    text-align: right;
+    padding: 15px 50px 0 0;
+}
+
+.hero-content p{
+    background: rgb(27, 27, 27, 0.5);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
